@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/java.js"></script>
+</head>
+<body>
+    <div class="title">
+        <h2>Welcome to our school!</h2>
+        <h3>Please complete information in this form.</h3>
+    </div>
+    
+    <form action="">
+        <div>Student's First Name: <input type="text" id="firstName"></div>
+        <div>Student's Second Name: <input type="text" id="lastName"></div>
+
+        <div>
+            <input type="radio" name="genderSelector" id="maleRadio" value="Male">Male
+            <input type="radio" name="genderSelector" id="femaleRadio" value="Femail">Female
+        </div>
+        <div>
+            <select name="classes" id="class">
+                <option value="class-A">Class-A</option>
+                <option value="class-B">Class-B</option>
+                <option value="class-C">Class-C</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" class="subject" value="Math">Math
+            <input type="checkbox" class="subject" value="Khmer">Khmer
+            <input type="checkbox" class="subject" value="English">English
+        </div>
+        <div>Email: <input type="email"id="email"></div>
+        <div>Password: <input type="password" placeholder="Password" id="password"></div>
+        <div><textarea name="message" id="sms" cols="45" rows="5"></textarea></div>
+    </form>
+</body>
+</html>
